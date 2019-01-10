@@ -23,6 +23,7 @@ echo "xyz432">>tmp1.txt
 echo "node comcast.js -f tmp1.txt"
 node comcast.js -f tmp1.txt
 echo "Expected output: 9"
+rm tmp1.txt
 echo "====================================================================="
 
 echo Test case 5:
