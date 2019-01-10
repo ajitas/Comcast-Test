@@ -1,0 +1,37 @@
+#!/bin/bash
+
+echo Test case 1:
+echo "node comcast.js with abc453 as input"
+node comcast.js<<<"abc453"
+echo "Expected output: 12"
+echo "====================================================================="
+
+echo Test case 2:
+echo "node comcast.js with qq as input"
+node comcast.js<<<"qq"
+echo "Expected output: 0"
+echo "====================================================================="
+
+echo Test case 3:
+echo "node comcast.js -x with abc453 as input"
+node comcast.js -x<<<"abc453"
+echo "Expected output: 45"
+echo "====================================================================="
+
+echo Test case 4:
+echo "node comcast.js -f tmp.txt"
+node comcast.js -f tmp.txt
+echo "Expected output: 6"
+echo "====================================================================="
+
+echo Test case 5:
+echo "node comcast.js -f tmp1.txt"
+node comcast.js -f tmp1.txt
+echo "Expected output: File tmp1.txt does not exist"
+echo "====================================================================="
+
+echo Test case 6:
+echo "node comcast.js -f"
+node comcast.js -f
+echo "Expected output: please provide a single file name after -f flag"
+echo "====================================================================="
