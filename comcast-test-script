@@ -19,15 +19,16 @@ echo "Expected output: 45"
 echo "====================================================================="
 
 echo Test case 4:
-echo "node comcast.js -f tmp.txt"
-node comcast.js -f tmp.txt
-echo "Expected output: 6"
+echo "xyz432">>tmp1.txt
+echo "node comcast.js -f tmp1.txt"
+node comcast.js -f tmp1.txt
+echo "Expected output: 9"
 echo "====================================================================="
 
 echo Test case 5:
-echo "node comcast.js -f tmp1.txt"
-node comcast.js -f tmp1.txt
-echo "Expected output: File tmp1.txt does not exist"
+echo "node comcast.js -f tmp2.txt"
+node comcast.js -f tmp2.txt
+echo "Expected output: File tmp2.txt does not exist"
 echo "====================================================================="
 
 echo Test case 6:
