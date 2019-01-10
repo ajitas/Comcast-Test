@@ -14,8 +14,8 @@ fs is an internal node package used to let the user interact with the file syste
 2. Download/Clone the respository.
 3. Navigate on terminal to the Comcast-Test folder and then you can type either of these three commands.
     1. Type "node comcast.js" on terminal. Then enter the string "abc123". Should show you 6 (1+2+3)
-    2. Type "node comcast.js -x" on terminal. Then enter the string "abc123". Should show you 29 (10+11+12+1+2+3)
+    2. Type "node comcast.js -x" on terminal. Then enter the string "abc123". Should show you 39 (10+11+12+1+2+3)
     3. Type "node comcast.js -f tmp.txt" on terminal. Should show you 6 as tmp.txt contains "abc123".
 
 ## Automated test script
-Navigate on terminal to the Comcast-Test folder and then you can type ./comcast-test-script
+Navigate on terminal to the Comcast-Test folder and then you can type "./comcast-test-script"
